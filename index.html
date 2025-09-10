@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aplikasi Pembuat Kartu Soal</title>
+    <title>Form Pembuat Kartu Soal</title>
     <style>
       /* Style-style ini untuk tampilan aplikasi di browser, bukan untuk PDF */
       * {
@@ -412,7 +412,7 @@
     <div class="container">
       <div class="header">
         <h1>KARTU SOAL</h1>
-        <h2>ASESMEN SUMATIF TENGAH SEMESTER I</h2>
+        <h2>ASESMEN SUMATIF TENGAH SEMESTER I (GASAL)</h2>
         <h3>TAHUN PELAJARAN 2025/2026</h3>
       </div>
 
@@ -436,12 +436,12 @@
             <div class="section-divider" style="background: linear-gradient(45deg, #1e3c72, #2a5298)">ℹ️ DATA UMUM (BERLAKU UNTUK SEMUA SOAL)</div>
             <div class="form-grid">
               <div class="form-group">
-                <label for="multiKelas">Kelas/Term/Semester:</label>
+                <label for="multiKelas">Kelas/Semester:</label>
                 <input type="text" id="multiKelas" placeholder="Contoh: VII/1/Ganjil" />
               </div>
 
               <div class="form-group">
-                <label for="multiPenulis">Penulis:</label>
+                <label for="multiPenulis">Penyusun:</label>
                 <input type="text" id="multiPenulis" placeholder="Nama penulis" />
               </div>
 
@@ -502,6 +502,14 @@
                   <input type="checkbox" id="currentMerefleksi" name="currentLevelKognitif" value="Merefleksi" />
                   <label for="currentMerefleksi">Merefleksi</label>
                 </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="currentMenganalisa" name="currentLevelKognitif" value="Menganalisa" />
+                  <label for="currentMerefleksi">Menganalisa</label>
+                </div>
+                <div class="checkbox-item">
+                  <input type="checkbox" id="currentMencipta" name="currentLevelKognitif" value="Mencipta" />
+                  <label for="currentMencipta">Mencipta</label>
+                </div>                
               </div>
             </div>
 
